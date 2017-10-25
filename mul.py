@@ -17,7 +17,7 @@ def pred(num2,i):
     '''
     #hello sheetal.mca
 
-    #approach : incremental approach.
+    #approach : incremental approach
     
     if num2 == 0 : 
         return 0
