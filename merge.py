@@ -3,7 +3,7 @@ pdb.set_trace()
 
 def merge(list1, list2):
     '''
-    objective : merge two sorted list and retrun third list after sorting
+    objective : merge two sorted list and return third list after sorting
     input parameter : list1 and list2
     return value : list3
     '''
