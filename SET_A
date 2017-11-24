@@ -1,0 +1,99 @@
+( Set A )
+1. WAP to find whether a given number is evil number or not? An evil number is
+a number which has even number of 1's in its binary equivalent.
+Input – number n
+Output – evil / not evil
+Sample –
+Input – 101011
+Output - evil
+Input – 10101
+Output – not evil
+
+2. Write a function to add 'ing' at the end of a given string (length should
+be at least 3).
+If the given string already ends with 'ing' then add 'ly' instead.
+If the string length of the given string is less than 3, leave it
+unchanged.
+The function returns the updated string.
+Sample String : 'abc'
+Expected Result : 'abcing'
+Sample String : 'string'
+Expected Result : 'stringly'
+Sample String : 'no'
+Expected Result : 'no'
+
+3. Write a program to compute the frequency of the words from the input, and
+output the words which occur more than once.
+Sample –
+Input – 􀅩New to Python or wanna learn Python then you should read Python
+Documentation or go to internet􀅪.
+Output –
+Python : 3
+to : 2
+
+4. Create a class Set. Make a method called intersection(l1,l2) which accepts
+with two given lists, and returns a list whose elements are intersection of
+the above given list.
+Sample –
+Input –
+L1 = [1,2,3,4,5,6,7,8]
+L2 = [1,3,5,7,9,11]
+Returns – [1,3,5,7]
+
+5. Write a python program to find the longest word in a file. File is
+􀅩poem.txt􀅪. Print the word and its length.
+
+6. Outputs
+
+i)
+spam=[1,3,2,5,4,7,6,9,8,10]
+print(spam[int(int('3' * 2) // 11)] )
+
+ii)
+spam = ['cats', 'dogs', 'moose']
+bacon = ['dogs', 'moose', 'cats']
+print(spam == bacon)
+eggs = {'name': 'Zophie', 'species': 'cat', 'age': '8'}
+ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
+print(eggs == ham)
+
+iii)
+class A(object):
+x = 1
+class B(A):
+pass
+class C(A):
+pass
+print(A.x, B.x, C.x)
+B.x = 2
+print(A.x, B.x, C.x)
+A.x = 3
+print(A.x, B.x, C.x)
+
+7. Errors if any -
+i) x = 10
+def func():
+x += 1
+print(x)
+func()
+
+8. Differences -
+i) What is the MAJOR difference between lists and dictionaries ?
+Explain with example.
+
+ii) Diff between
+a= (42)
+b= (42,)
+
+iii) Is the ouput of A and B same? If yes, why? If no, gie the different
+outputs.
+
+A. def func(bar = []):
+bar.append('xyz')
+return bar
+print(func())
+
+B. def func(bar = []):
+bar.extend('xyz')
+return bar
+print(func())
